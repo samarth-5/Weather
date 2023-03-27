@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    color: white;
+}
+.ww{    
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.cit{
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(61, 60, 60);
+    color: light rgb(224, 220, 220);
+}
+.ico{
+    height: 35px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.maincont{
+
+}
+.wea{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    height: 360px;
+    width: 330px;
+    background-color: rgb(189, 138, 247);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: black;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:xx-small;
+    font-family:Impact, Arial Narrow Bold, sans-serif;
+}
+#tvalue{
+    font-size: 5px;
+    color: black;
+}
+.humid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:xx-small;
+    font-family:Impact, Arial Narrow Bold, sans-serif;
+}
+#hvalue{
+    font-size: 5px;
+    color: black;
+}
+.wind{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:xx-small;
+    font-family:Impact, Arial Narrow Bold, sans-serif;
+}
+#wvalue{
+    font-size: 5px;
+    color: black;
+}
+.city{
+    height: 20px;
+    width: 330px;
+    margin: 50px;
+    padding: 10px;
+    background-color:pink;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: Arial;
+}
+.footer{
+    align-items: center;
+    display: flex;
+}

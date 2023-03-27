@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="weat.css">
+</head>
+<body>
+    <div class="header">
+        <div class="wu">
+            <img src="Weather.jpg" width="100" height="50" alt="icon">
+        </div>    
+        <div class="search">
+            <form>
+                <input type="text" id="cit" name="city"
+                placeholder="Search for a city" class="cit">
+                <button class="ico" id="ico" type="submit">
+                <img src="search.jpg" width="14" height="14" alt="icon" >
+                </button>
+                <br><br>
+            </form>
+        </div>
+    </div>
+    <div class="maincont">
+        <div class="wea">
+            <div class="temp">
+                Temperature<br><br>
+                <img src="temp.jpg" width="50" height="50">
+                <p><span id="tvalue">----</span></p> 
+            </div>
+            <br><br>
+            <div class="humid">
+                Humidity<br><br>
+                <img src="humidity.jpg" width="50" height="50">
+                <p><span id="hvalue">----</span></p>
+            </div>
+            <br><br>
+            <div class="wind">
+                Wind<br><br>
+                <img src="wind.jpg" width="50" height="50">
+                <p><span id="wvalue">----</span></p>
+            </div>
+        </div>
+        <div class="city" id="location">-----</div>
+    </div>
+    <div class="cmntabtcity"></div>
+    <div class="footer">
+        <h6>Made with ❤️ by Samarth</h6>
+    </div>
+</body>
+</html>
