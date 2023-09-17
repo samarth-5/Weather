@@ -1,2 +1,2 @@
 # Weather
-predicts weather
+Predicts waether of different cities across the globe
